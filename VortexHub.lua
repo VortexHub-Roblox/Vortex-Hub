@@ -88,6 +88,5 @@ if currentPlaceId == targetPlaceId then
 else
     StatusLabel.Text = "Error"
     StatusLabel.TextColor3 = Color3.fromRGB(180, 180, 180)
-    task.wait(1)
     game.Players.LocalPlayer:Kick("different game")
 end
